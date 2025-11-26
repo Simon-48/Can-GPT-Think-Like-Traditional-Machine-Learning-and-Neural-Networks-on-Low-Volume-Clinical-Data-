@@ -2,7 +2,7 @@
 
 ## An Approach to Convert Tabular Clinical Records into Clinical Texts for Training Disease-Specific LLMs Effectively
 
-The key dataset of this study is from the National Institute of Cancer Research and Hospital (NICRH) on sarcoma cancer. As this is a private dataset, its information is not disclosed. Instead, information from a few public datasets—such as the UCI Heart Disease, UCI Heart Failure Clinical Records, and UCI Chronic Kidney Disease datasets—is provided. Kindly check the 'Results.docx' uploaded.
+The key dataset of this study is from the National Institute of Cancer Research and Hospital (NICRH) on sarcoma cancer. As this is a private dataset, its information is not disclosed. Instead, information from a few public datasets—such as the UCI Heart Disease, UCI Heart Failure Clinical Records, UCI Chronic Kidney Disease, and Differentiated Thyroid Cancer Recurrence datasets—is provided. Kindly check the 'Results.docx' uploaded.
 
 In this study, heart patient data from the UCI Heart Disease dataset were utilized. This data was originally in tabular format, similar to what is typically found in a structured, tabular clinical dataset or Electronic Health Record (EHR)-derived tabular dataset. However, large language models (LLMs) such as GPT perform optimally with text-based input rather than tabular data. This introduced two primary challenges:
 
@@ -22,7 +22,7 @@ Additionally, this approach was compared to a simpler method in which tabular da
 
 In contrast, the table-to-clinical-text approach enabled the GPT model to learn both the semantic and clinical context of each feature. This resulted in significantly improved performance and generalization, particularly for the underrepresented heart disease class.
 
-To evaluate the generalizability of the proposed method, it was also applied to the UCI Heart Failure Clinical Records dataset and the UCI Chronic Kidney Disease dataset, with consistent results obtained across all datasets.
+To evaluate the generalizability of the proposed method, it was also applied to the UCI Heart Failure Clinical Records dataset, the UCI Chronic Kidney Disease dataset, and the UCI Differentiated Thyroid Cancer Recurrence dataset with consistent results obtained across all datasets.
 
 Improvements:
   
