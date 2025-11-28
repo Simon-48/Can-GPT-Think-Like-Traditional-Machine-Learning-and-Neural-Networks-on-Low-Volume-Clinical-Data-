@@ -1,5 +1,9 @@
 # Can GPT Think Like Traditional Machine Learning and Neural Networks on Low-Volume Clinical Data?
 
+## Project Summary
+
+In this project, I explored how to use open-source language models, especially GPT-2, to predict diseases from small clinical datasets. Traditional machine-learning models often have trouble understanding medical data when some categories appear very rarely. They mainly learn statistical patterns, not the deeper medical meaning behind the data. To solve this, I converted each patient’s clinical record into short, doctor-like text descriptions. Then I used a GPT-based paraphrasing method to create realistic new medical samples. This helped fix class imbalance while keeping important clinical details accurate—something models like GANs usually struggle with. After that, I fine-tuned GPT-2 on four public datasets and compared its prediction quality and reasoning ability with classical machine-learning and neural-network models. I used gradient-based explanation methods to see which medical words influenced GPT-2’s decisions. This helped check whether the model was using the right clinical clues and whether its predictions were fair. **The results showed that GPT-2 focused on meaningful medical features, made reliable decisions, and showed better context understanding than traditional models.**
+
 ## An Approach to Convert Tabular Clinical Records into Clinical Texts for Training Disease-Specific LLMs Effectively
 
 The key dataset of this study is from the National Institute of Cancer Research and Hospital (NICRH) on sarcoma cancer. As this is a private dataset, its information is not disclosed. Instead, information from a few public datasets—such as the UCI Heart Disease, UCI Heart Failure Clinical Records, UCI Chronic Kidney Disease, and Differentiated Thyroid Cancer Recurrence datasets—is provided. Kindly check the 'Results.docx' uploaded.
